@@ -26,6 +26,9 @@ print(algo_list)
 with open('word_index.json') as f:
     word_index = json.load(f)
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
+app.config.suppress_callback_exceptions = True
+app.title = 'AI Cipta'
 
 controls = dbc.Card(
     [
