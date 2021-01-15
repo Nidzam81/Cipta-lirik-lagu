@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'ai-cipta'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f2ae22206d994ddc970dd708bdba81c5 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a045e34f48fb429eb6a48867857213eb }}
