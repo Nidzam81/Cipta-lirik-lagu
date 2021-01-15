@@ -37,7 +37,6 @@ grpcio==1.32.0
 h5py==2.10.0
 idna==2.10
 ipykernel==5.4.2
-ipython==7.19.0
 ipython-genutils==0.2.0
 isort==5.7.0
 itsdangerous==1.1.0
